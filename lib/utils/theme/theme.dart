@@ -12,19 +12,19 @@ class SAppTheme{
   SAppTheme._();
 
   static ThemeData lightTheme = ThemeData(
-    useMaterial3: true,
-    fontFamily: 'Poppins',
-    brightness: Brightness.light,
-    primaryColor: Colors.blue,
-    textTheme: STextTheme.lightTextTheme,
-    chipTheme: SChipTheme.lightChipTheme,
-    scaffoldBackgroundColor: Colors.white,
-    appBarTheme: SAppBarTheme.lightAppBarTheme,
-    checkboxTheme: SCheckBoxTheme.lightCheckBoxTheme,
-    bottomSheetTheme: SBottomSheetTheme.lightBottomSheetTheme,
-    elevatedButtonTheme: SElevatedButtonTheme.lightElevatedButtonTheme,
-    outlinedButtonTheme: SOutLinedButtonTheme.lightOutLinedButtonTheme,
-    inputDecorationTheme: STextFormFieldTheme.lightInputDecorationTheme
+      useMaterial3: true,
+      fontFamily: 'Poppins',
+      brightness: Brightness.light,
+      primaryColor: Colors.blue,
+      textTheme: STextTheme.lightTextTheme,
+      chipTheme: SChipTheme.lightChipTheme,
+      scaffoldBackgroundColor: Colors.white,
+      appBarTheme: SAppBarTheme.lightAppBarTheme,
+      checkboxTheme: SCheckBoxTheme.lightCheckBoxTheme,
+      bottomSheetTheme: SBottomSheetTheme.lightBottomSheetTheme,
+      elevatedButtonTheme: SElevatedButtonTheme.lightElevatedButtonTheme,
+      outlinedButtonTheme: SOutLinedButtonTheme.lightOutLinedButtonTheme,
+      inputDecorationTheme: STextFormFieldTheme.lightInputDecorationTheme
   );
   static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
